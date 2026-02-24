@@ -1,0 +1,62 @@
+Last updated: February 25, 2026                                                                         
+                                                            
+  Info ("the extension") is a Chrome browser extension that extracts biographical data from web pages and 
+  copies page text from browser tabs. This privacy policy explains what data the extension accesses, how
+  it is used, and how it is stored.
+
+  Data Collection
+
+  The extension does not collect, transmit, or store any personal data. No information is sent to any
+  external server, third-party service, or analytics platform. The extension has no backend, no accounts,
+  and no telemetry.
+
+  Data Access
+
+  When you choose to extract data from a tab, the extension reads the text content of that page in order
+  to identify names, dates, locations, and other biographical fields. This processing happens entirely
+  within your browser. Page content is never stored beyond the duration of the extraction operation and is
+   discarded as soon as results are displayed.
+
+  Data Storage
+
+  The extension stores the following data locally on your device using Chrome's built-in storage APIs:
+
+  - User preferences — column order, enabled columns, extraction settings, and AI feature toggle. These
+  are stored via chrome.storage.sync so your settings persist across devices where you are signed into
+  Chrome.
+  - AI model files — if you enable AI features and download the models, the model weights (ONNX files) are
+   cached in IndexedDB for offline use. These are machine learning model parameters, not personal data.
+  - Model download progress — temporary progress state stored in chrome.storage.local during model
+  downloads, cleared automatically.
+
+  No browsing history, page content, extracted results, or personally identifiable information is ever
+  written to storage.
+
+  AI Features
+
+  The extension includes optional AI-powered features (name classification and named entity recognition)
+  that use machine learning models from Hugging Face. These models are downloaded once and cached locally.
+   All inference runs on your device using WebAssembly (ONNX Runtime). No page content or extracted data
+  is sent to Hugging Face, Anthropic, Google, or any other external service.
+
+  Permissions
+
+  The extension requests browser permissions solely to perform its core functions: reading tab content for
+   extraction, writing to the clipboard when you copy results, and creating an offscreen document to run
+  AI models. A full explanation of each permission and why it is needed is available on the Chrome Web
+  Store listing.
+
+  Third Parties
+
+  The extension does not share any data with third parties. There are no ads, analytics, tracking pixels,
+  or external network requests other than the one-time AI model download from Hugging Face (which only
+  transfers model weight files, not user data).
+
+  Children's Privacy
+
+  The extension does not knowingly collect any information from anyone, including children under 13.
+
+  Changes to This Policy
+
+  If this privacy policy is updated, the revised version will be posted at this URL with an updated date.
+  Since the extension collects no data, changes are unlikely.
