@@ -1,0 +1,38 @@
+Privacy Policy — transcripts                                                            
+                                                                                                          
+  Last updated: March 1, 2026                                                                             
+                                                                                                          
+  Overview                                                                                                
+                  
+  Course Transcript Extractor is a Chrome extension that extracts video lecture transcripts from Coursera
+  and Udemy course pages and saves them as local text files. It operates entirely within your browser.
+
+  Data Collection
+
+  This extension does not collect, store, transmit, or share any personal data or user information.
+
+  What the Extension Accesses
+
+  - Page content on Coursera and Udemy only: The extension reads DOM elements (course names, lecture
+  titles, and transcript text) solely to compile transcripts.
+  - Local storage: Used only to maintain extraction progress within your browser session.
+  - Downloads: Used only to save the compiled transcript file to your local device.
+
+  All processing happens locally in your browser. No data is sent to any external server, analytics
+  service, or third party.
+
+  Third-Party Services
+
+  This extension does not use any third-party services, tracking, or analytics.
+
+  Permissions
+
+  - activeTab: To read transcript content from the current Coursera or Udemy tab.
+  - storage: To persist extraction progress between popup sessions.
+  - downloads: To save the output file locally.
+  - Host permissions (coursera.org, udemy.com): To inject content scripts that read course and transcript
+  data.
+
+  Changes
+
+  Any updates to this policy will be reflected here with an updated date.
